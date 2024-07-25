@@ -20,7 +20,7 @@ const Header = ({ toggleTheme, isDarkMode }) => {
       <h1>Radar Rescuer</h1>
       <p>Navigating Your Safety, One Scan at a Time</p>
       <button onClick={toggleTheme} className="theme-toggle-button">
-        {isDarkMode ? "Light Mode" : "Nigga mode"}
+        {isDarkMode ? "Light Mode" : "Dark mode"}
       </button>
     </header>
   );
